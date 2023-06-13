@@ -14,21 +14,23 @@ public class Ex2Calculadora {
 
     }
 
-    public int[] somar(int[] lista) {
+    public int somar(int[] lista) {
+
         int total = 0;
+
         for (int i = 0; i < lista.length; i++) {
             total += lista[i];
 
         }
-        return lista;
+        return total;
+    }
+    public double somar(double[] decimais){
+        double total = 0;
 
-//    public double somar(double[] decimais){
-//        double total = 0;
-//
-//        for (int i=0; i< decimais.length;i++){
-//            total+=decimais[i];
-//            return double decimais;
-//
-//        }
-//    }
-}}
+        for (int i=0; i< decimais.length;i++){
+            total+=decimais[i];
+
+        }
+        return total;
+    }
+}

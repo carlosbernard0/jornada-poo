@@ -12,7 +12,7 @@ public class Ex2 {
         System.out.println(calculadora.somar(55,45));
         System.out.println(calculadora.somar(1.5f,4.5f));
         System.out.println(calculadora.somar(new int[]{10, 20, 30, 40}));
-//        System.out.println(calculadora.);
+        System.out.println(calculadora.somar(new double[]{20.0, 40.0f, 60.0f}));
 
 
         //procurar saber como q coloca os valores dentro dos paramentos
