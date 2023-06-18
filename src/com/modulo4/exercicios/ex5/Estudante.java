@@ -42,5 +42,5 @@ public class Estudante {
         }else {
             System.out.println("A lista esta vazia.");
         }
-}
+    }
 }
